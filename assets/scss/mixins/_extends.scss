@@ -1,0 +1,10 @@
+/** @format */
+
+@use "../presets" as *;
+
+%container {
+  max-width: $ul;
+  padding-right: $gap;
+  padding-left: $gap;
+  margin: 0 auto;
+}
