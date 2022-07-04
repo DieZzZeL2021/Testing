@@ -1,5 +1,14 @@
 /** @format */
 
+var userObj = {
+  firstName: 'Bob',
+  lastName: 'Marley',
+  age: 30,
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  },
+};
+
 function ageClassification(n) {
   var str = '';
 
@@ -21,5 +30,3 @@ function ageClassification(n) {
       : null;
   return str;
 }
-
-console.log(ageClassification(2));
